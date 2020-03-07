@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>online books store</title>
+		<meta name="description" content="A shading effect for 3D transformed elements" />
+		<meta name="keywords" content="css3, transforms, shadow, shading, 3d, box shadow" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  </head>
+  <body>
+
+  <div class="header">
+    <h2 class="logo">BOOK STORE</h2>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="#">Home</a>
+      <a href="registration.html" target="_self">Login</a>
+      <a href="#">About</a>
+      <a href="#">Works</a>
+      <a href="#">Contact</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+
+
+<!------animated loding page---->
+<div class="landing-page">
+      <div class="page-content">
+        <h1>Learn New Things To Change Your Life</h1>
+        <p>
+          Read the best books first, or you may not have a chance to read them at all.
+        </p>
+        <a href="registration.html" target="_self">Get Started</a>
+      </div>
+    </div>
+	<!-----books ------>
+	<div class="container">
+			<!-- Top Navigation -->
+			
+			<header>
+				
+			</header>
+			<div class="wrapper">
+				<ul class="stage clearfix">
+
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>C Language</h1>
+								</header>
+								<p>
+									A Simple Guide to learn c programming language fast<br><br>
+									<form>
+									
+									<input type="button" onclick="increaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="reduceValue()" value="delete from cart" />
+									<input type="text" id="number" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>c++ Language</h1>
+									
+									
+								</header>
+								<p>
+									A Simple guide to learn c++ programming language fast<br><br>
+									<form>
+									
+									<input type="button" onclick="cppincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="cppreduceValue()" value="delete from cart" />
+									<input type="text" id="cppnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>JAVA</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn java programming language fast<br><br>
+									<input type="button" onclick="jincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="jreduceValue()" value="delete from cart" />
+									<input type="text" id="jnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>PYTHON</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn Python programming language fast<br><br>
+									<input type="button" onclick="pincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="preduceValue()" value="delete from cart" />
+									<input type="text" id="pnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>HTML</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn HTML fast<br><br>
+									<input type="button" onclick="hincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="hreduceValue()" value="delete from cart" />
+									<input type="text" id="hnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>CSS</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn CSS fast<br><br>
+									<input type="button" onclick="cincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="creduceValue()" value="delete from cart" />
+									<input type="text" id="cnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>javascript</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn javascript fast<br><br>
+									<input type="button" onclick="jsincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="jsreduceValue()" value="delete from cart" />
+									<input type="text" id="jsnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>bootsrap</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn bootstrap fast<br><br>
+									<input type="button" onclick="bincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="breduceValue()" value="delete from cart" />
+									<input type="text" id="bnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>Angular js</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn angular js fast<br><br>
+									<input type="button" onclick="aincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="areduceValue()" value="delete from cart" />
+									<input type="text" id="anumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>jquery</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn jquery fast<br><br>
+									<input type="button" onclick="jqincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="jqreduceValue()" value="delete from cart" />
+									<input type="text" id="jqnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>kotlin</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn kotlin fast<br><br>
+									<input type="button" onclick="kincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="kreduceValue()" value="delete from cart" />
+									<input type="text" id="knumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>php</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn php  fast<br><br>
+									<input type="button" onclick="phincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="phreduceValue()" value="delete from cart" />
+									<input type="text" id="phnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>Blockchain</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn Blockchain  fast<br><br>
+									<input type="button" onclick="bcincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="bcreduceValue()" value="delete from cart" />
+									<input type="text" id="bcnumber" value="0"/>
+									</form>
+									
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>machine learning</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn machine learning  fast<br><br>
+									<input type="button" onclick="mlincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="mlreduceValue()" value="delete from cart" />
+									<input type="text" id="mlnumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="scene">
+						<div class="movie" onclick="return true">
+							<div class="poster"></div>
+							<div class="info">
+								<header>
+									<h1>artificial intelligence</h1>
+									
+								</header>
+								<p>
+									A Simple guide to learn artificial intelligince js fast<br><br>
+									<input type="button" onclick="aiincreaseValue()" value="Add to cart" />
+									
+									<input type="button" onclick="aireduceValue()" value="delete from cart" />
+									<input type="text" id="ainumber" value="0"/>
+									</form>
+								</p>
+							</div>
+						</div>
+					</li>
+
+				</ul>
+			</div><!-- /wrapper -->
+		</div><!-- /container -->
+  </body>
+</html>
